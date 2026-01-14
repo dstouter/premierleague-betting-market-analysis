@@ -20,7 +20,7 @@ library(forcats)
 library(scales)
 
 # 1) Load & clean data
-matches <- read_excel("Desktop/R Project DS/matches.xlsx")
+matches <- read_excel("data/matches.xlsx")
 
 epl <- matches %>%
   # Filter for EPL

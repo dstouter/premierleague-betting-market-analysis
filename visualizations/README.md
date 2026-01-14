@@ -1,44 +1,28 @@
-This folder contains key visualizations from the EPL betting market analysis.
+# Visualizations
 
-## Key Visualizations
+This folder contains key visualizations generated from the Premier League
+betting market analysis. Each plot highlights a different aspect of how
+betting odds relate to actual match outcomes and market confidence.
 
-### EPL Outcome Distribution
-![EPL Outcome Distribution](visuals/outcome_distribution.pdf)
+## Files
 
-This chart shows the distribution of match outcomes (home win, draw, away win) across EPL matches from 2003–2023.
+- **epl_outcome_distribution.png**  
+  Distribution of match outcomes (home win, draw, away win) across EPL matches
+  from 2003–2023.
 
----
+- **implied_home_win_probability_density.png**  
+  Density of implied home-win probabilities separated by actual match outcome,
+  illustrating how market expectations differ by result.
 
-### Implied Home Win Probability by Outcome
-![Implied Probability Density](visuals/implied_home_win_probability_density.pdf)
+- **home_win_probability_calibration.png**  
+  Calibration plot comparing predicted home-win probabilities with observed
+  home-win rates to assess market accuracy.
 
-Density distributions of implied home-win probabilities, separated by actual match outcome, illustrating how market expectations differ across results.
+- **market_confidence_odds_gap_scatter.png**  
+  Scatter plot showing the relationship between implied home-win probability and
+  the odds gap between teams, highlighting levels of market confidence.
 
----
-
-### Calibration of Home Win Probabilities
-![Calibration](visuals/home_win_probability_calibration.pdf)
-
-Calibration plot comparing mean predicted home-win probabilities with observed home-win rates, used to assess betting market accuracy.
-
----
-
-### Market Confidence, Odds Gap, and Match Excitement
-![Odds Gap vs Probability](visuals/odds_gap_vs_implied_probability_and_goals.pdf)
-
-Scatter plot showing the relationship between implied home-win probability, odds spread, and total goals scored, highlighting market confidence and match volatility.
-
----
-
-### Margin of Victory vs Implied Home Win Probability
-![Margin of Victory](visuals/margin_of_victory_vs_implied_home_win_probability.pdf)
-
-Relationship between implied home-win probability and goal difference, showing how stronger favorites tend to win by larger margins.
-
----
-
-### Expected vs Actual Home Win Rate by Season
-![Expected vs Actual](visuals/expected_vs_actual_home_win_rate_by_season.pdf)
-
-Comparison of expected versus actual EPL home-win rates over time, illustrating consistency and deviations in market accuracy across seasons.
+- **expected_vs_actual_home_win_rate_by_season.png**  
+  Comparison of expected versus actual EPL home-win rates across seasons,
+  showing trends and deviations in market performance over time.
 

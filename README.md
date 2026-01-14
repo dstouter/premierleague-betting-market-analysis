@@ -22,4 +22,5 @@ to evaluate how accurately betting markets predict match outcomes.
 
 ## Tools
 - R (dplyr, ggplot2, scales)
+- Adobe Illustrator
 

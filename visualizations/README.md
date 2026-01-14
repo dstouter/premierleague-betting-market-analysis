@@ -3,7 +3,7 @@ This folder contains key visualizations from the EPL betting market analysis.
 ## Key Visualizations
 
 ### EPL Outcome Distribution
-![EPL Outcome Distribution](visuals/epl_outcome_distribution.pdf)
+![EPL Outcome Distribution](visuals/outcome_distribution.pdf)
 
 This chart shows the distribution of match outcomes (home win, draw, away win) across EPL matches from 2003–2023.
 
